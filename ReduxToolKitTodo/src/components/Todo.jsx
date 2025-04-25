@@ -18,7 +18,8 @@ function Todo() {
           className="bg-black rounded text-white flex justify-between ml-auto p-2 m-2"
         >
          <span>{todo.text}</span> 
-         <div className="ml-auto flex space-x-2">
+         <div className="ml
+         -auto flex space-x-2">
          <button onClick={() => dispatch(removeTodo(todo.id))}>
             <FaTrash
               className="text-red-500 hover:text-red-900 cursor-pointer transition-transform duration-200 hover:scale-125"
